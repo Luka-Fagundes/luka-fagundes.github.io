@@ -40,7 +40,7 @@ padding: 5px
   grid-area: welcome;
 }
 .welcome::before {
-background-image: url("Dev Shot.png");
+background-image: url("Dev Shot.jpg");
 background-size: cover;
 content: "";
 display: block;

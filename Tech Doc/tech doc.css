@@ -1,0 +1,30 @@
+#main-doc {
+  text-align: left;
+  background: rgb(145, 145, 145);
+  color: white;
+  padding-left: 250px;
+}
+#navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 50px;
+    left: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(65, 54, 68);;
+  }
+  #navrow {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.nav_link {
+    color: rgb(71, 176, 244);
+}
+@media only screen and (max-width: 601px) {
+  #main-doc {
+    width: auto;
+    height: auto;
+  }
+  h1 {
+    margin: 0;
+  }

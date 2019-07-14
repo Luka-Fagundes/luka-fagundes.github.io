@@ -1,0 +1,11 @@
+#main {
+  background: linear-gradient(25deg, rgb(2, 20, 32), rgb(2, 75, 3));
+  color: white;
+}
+
+#img {
+  width: auto;
+}
+#img-div {
+  align-items: center;
+}

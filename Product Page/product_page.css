@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(35deg, #a961d0, #a5e867);
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+#nav-bar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.nav-link {
+  padding: 10px 10px 10px 10px;
+  background-color: #a5e867;
+}
+
+#email input:valid {
+  border: 2px solid green
+}
+#email input:invalid {
+  border: 2px solid red
+}
+@media only screen and (max-width: 601px) {
+  .container {
+    width: auto;
+    height: auto;
+  }
+}
+#flex {
+  column-count: 2;
+}

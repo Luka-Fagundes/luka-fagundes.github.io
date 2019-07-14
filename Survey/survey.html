@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="survey.css">
+  <title>Survey</title>
+</head>
+<body>
+  <h1>Taking Back Survey</h1>
+  <p>Welcome to my general survey about Taking Back Sunday</p>
+  <h3>A Brief History About The Boys</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias fuga quisquam soluta reiciendis odit quas maiores nostrum labore asperiores dignissimos corporis fugiat, necessitatibus iusto nam praesentium, officia. Iste, sed, quis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus repellendus maiores sunt beatae sit earum officiis odit atque illo molestias dicta quam aperiam blanditiis quisquam, quae vel laborum numquam autem?</p>
+  <img id="image" src="tbs.jpeg" alt="Taking Back Sunday">
+  <form id="survey-form" action="form-to-email.php">
+    <div>
+      Name <input id="name" type="text" name="name" placeholder="Enter Your Name" required />
+      Email <input id="email" type="email" name="email" placeholder="Enter Your Email" required />
+      Number <input id="number" type="text" name="number" placeholder="XXX-XXX-XXXX" min="0" max="9" />
+    </div>
+    <div>
+      <div>Favorite Album</div>
+      <select id="dropdown">
+        <option value="Tell All Your Friends">Tell All Your Friends</option>
+        <option value="Where You Want To Be">Where You Want To Be</option>
+        <option value="Louder Now">Louder Now</option>
+        <option value="New Again">New Again</option>
+        <option value="Self Titled">Self Titled</option>
+        <option value="Happiness Is">Happiness Is</option>
+        <option value="Tidal Wave">Tidal Wave</option>
+      </select>
+    </div>
+    <div>
+      <div>Favorite Road Jam</div>
+      <button type="radio" name="jam" value="A Decade Under The Influence">A Decade Under The Influence</button>
+      <button type="radio" name="jam" value="Bike Scene">Bike Scene</button>
+      <button type="radio" name="jam" value="El Paso">El Paso</button>
+      <button type="radio" name="jam" value="Flicker, Fade">Flicker, Fade</button>
+      <button type="radio" name="jam" value="Makedamnsure">Makedamnsure</button>
+    </div>
+    <div>
+      <div>Which Half Decade Was Your Best?</div>
+      00-05<input type="checkbox" value="00-05" />
+      05-10<input type="checkbox" value="05-10" />
+      10-15<input type="checkbox" value="10-15" />
+      15-20<input type="checkbox" value="15-20" />
+    </div>
+    <div>
+      <div>Additional Comments</div>
+      <input type="textarea" name="comments" placeholder="Any additional thoughts?">
+    </div>
+    <div><button type="submit" id="submit">Submit</button>
+    </div>
+  </form>
+  </body>
+
+</html>

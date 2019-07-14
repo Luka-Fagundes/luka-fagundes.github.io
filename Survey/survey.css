@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(214, 197, 150);
+  color: black;
+  text-align: center;
+}
+#image {
+  width: 50%
+}
+
+#email input:valid {
+  border: 2px solid green;
+}
+#email input:invalid {
+  border-: 2px solid red;
+}
+#number input:valid {
+  border: 2px solid green;
+}
+#number input:invalid {
+  border-: 2px solid red;
+}

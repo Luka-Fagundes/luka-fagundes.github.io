@@ -62,6 +62,7 @@ opacity: 0.4;
   z-index: 2;
   color: lightblue;
   font-size: 13px;
+  padding-top: 3px;
 }
 .about {
   grid-area: about;
@@ -116,15 +117,30 @@ opacity: 0.4;
 #welcome-heading {
   line-height: 32vh;
 }
+.navbar {
+  height: 38px;
+  font-size: 15px;
+  padding-top: 5px;
+}
 }
 
 @media (min-width: 768px) {
 #welcome-heading {
   line-height: 50vh;
 }
+.navbar {
+  height: 41px;
+  font-size: 17px;
+  padding-top: 5px;
+}
 }
 
 @media (min-width: 1024px) {
+  .navbar {
+    height: 47px;
+    font-size: 21px;
+    padding-top: 15px;
+  }
 .container {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
@@ -137,6 +153,11 @@ opacity: 0.4;
 }
 
 @media (min-width: 1280px) {
+  .navbar {
+    height: 51px;
+    font-size: 23px;
+    padding-top: 15px;
+  }
 .container {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
@@ -145,8 +166,4 @@ opacity: 0.4;
   ". work work ."
   "footer footer . .";
 }
-}
-
-@media (min-width: 1960px) {
-
 }
